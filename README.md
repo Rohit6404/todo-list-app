@@ -53,6 +53,6 @@ javascript-todo-list-app/
 
 ## 👨‍💻 Author
 
-**Rohit Shaw**
+**Rohit Kumar Shaw**
 
 GitHub: [Rohit6404](https://github.com/Rohit6404)
