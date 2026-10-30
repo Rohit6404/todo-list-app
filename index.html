@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="todo-container">
+        <header class="todo-header">
+            <p class="eyebrow">STAY ORGANIZED</p>
+            <h1>My To-Do List</h1>
+            <p class="subtitle">Small steps, big progress.</p>
+        </header>
+
+        <form id="todo-form" class="todo-form">
+            <input
+                type="text"
+                id="task-input"
+                placeholder="What do you need to do?"
+                autocomplete="off"
+                aria-label="Enter a task"
+            >
+            <button type="submit" id="add-btn">Add Task</button>
+        </form>
+
+        <p id="error-message" class="error-message" aria-live="polite"></p>
+
+        <section class="tasks-section">
+            <div class="tasks-heading">
+                <h2>Your Tasks</h2>
+                <span id="task-count">0 tasks</span>
+            </div>
+
+            <ul id="task-list" class="task-list">
+                <li class="empty-state">Your tasks will appear here.</li>
+            </ul>
+        </section>
+        
+    </main>
+</body>
+</html>
